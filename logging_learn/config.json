@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "incremental": false,
+    "formatters": {
+        "format1": {
+            "format": "%(asctime)s %(filename)s %(funcName)s  %(lineno)s %(levelname)s %(message)s",
+            "datefmt": "%Y-%m-%d %H:%M:%S",
+            "class": "logging.Formatter"
+        }
+    },
+    "filters": {
+        "filter1": {
+            "name": ""
+        }
+    },
+    "handlers": {
+        "handler1": {
+            "formatter": "format1",
+            "level": "DEBUG",
+            "class": "logging.FileHandler",
+            "filename": "log.txt"
+        },
+        "handler2": {
+            "formatter": "format1",
+            "level": "DEBUG",
+            "class": "logging.StreamHandler"
+        }
+    },
+    "loggers": {
+        "logger1": {
+            "handlers": ["handler1", "handler2"],
+            "level": "DEBUG",
+            "filter": "filter1"
+        }
+    }
+}

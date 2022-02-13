@@ -1,0 +1,8 @@
+child waring msg
+child waring msg
+2021-11-27 20:15:37 config.py <module>  53 INFO This is info message
+2021-11-27 20:16:11 config.py <module>  56 INFO This is info message
+2021-11-27 20:16:46 config.py <module>  56 INFO This is info message
+2021-11-27 20:17:33 config.py <module>  56 INFO This is info message
+2021-11-27 20:25:57 config.py <module>  63 INFO This is info message
+2021-11-27 20:26:26 config.py <module>  64 INFO This is info message
